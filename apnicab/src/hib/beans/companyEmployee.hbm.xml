@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="hib.beans">
+    <class name="companyEmployee" table="employeetable">
+        <id name="empId" column="cabid"/>
+        <property name="empName" column="cabmodel"/>
+        <property name="compId" column="driverstatus"/>
+        <property name="contactNo" column="acfacility"/>
+        <property name="city" column="sharedstatus"/>
+        <property name="address" column="address"/>
+        <property name="password" column="password"/>
+        
+    </class>
+</hibernate-mapping>

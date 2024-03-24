@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="hib.beans">
+    <class name="cab" table="cabtable">
+        <id name="cabId" column="cabid"/>
+        <property name="cabModel" column="cabmodel"/>
+        <property name="driverStatus" column="driverstatus"/>
+        <property name="acFacility" column="acfacility"/>
+        <property name="sharedStatus" column="sharedstatus"/>
+        
+    </class>
+</hibernate-mapping>
+
